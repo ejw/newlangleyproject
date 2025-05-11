@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i&display=swap');
+
+
+/* LETTERS BASELINES */
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0px; padding: 0px; border: 0px;
+}
+html { height: 100%; }
+body {
+  width: 100%;
+  color: black;
+  font-size: 20px;
+	font-family: 'Open Sans', serif;
+}
+
+/* LETTERS BASELINES */
+
+.body-tol {
+}
+.body-tol-inner {
+  padding: 50px 0px 0px 0px;
+}
+
+.body-woodward {
+}
+.body-woodward-inner {
+  padding: 50px 0px 0px 0px;
+}

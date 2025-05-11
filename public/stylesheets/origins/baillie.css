@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/*
+  BLUE: #004165 -- rgb(0, 65, 101)
+  YELLOW: #EEAF00 -- rgb(238, 175, 0)
+*/
+
+body {
+  font-weight: 400;
+  font-family: 'Merriweather', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+button,
+header nav ul li,
+footer a { font-family: 'Kanit', sans-serif; }
+
+div.content-line { background: #004165; }
+
+
+@media (min-width:  576px) {
+}
+
+@media (min-width:  768px) {
+}
+
+@media (min-width:  992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {  /** XXL **/
+}

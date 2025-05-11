@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap');
+
+
+body {
+  font-size: 15px;
+	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 18px;
+  background: white;
+  background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif; font-weight: 700; letter-spacing: 1.5px; color: black; text-transform: uppercase; }
+h1 { margin:  0px 0px 15px 0px; font-size: 1.8em; text-align: center; }      /* PRIMARY PAGE TITLE -- CENTERED */
+h2 { margin: 10px 0px  5px 0px; font-size: 1.2em; letter-spacing: 1.25px; }  /* INTERNAL TITLE -- LEFT */
+
+p { padding-bottom: 12px; font-size: 1.1em; line-height: 1.5em; }
+button { padding: 5px 15px !important; font-family: 'Raleway', sans-serif; font-weight: 700 !important; border-radius: 18px !important; }
+
+a { color: gray; }
+a:hover { color: black; color: rgba(67, 108, 144, 0.8); text-decoration: none; }
+
+label { margin: 0px 0px 5px 0px; color: rgba(0, 0, 0, 0.75); font-size: 0.8em; }
+
+
+header {
+  padding: 0px 15px 15px 5px;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: black;
+  background: white;
+}
+header nav a.navbar-brand { padding: 0px; }
+header nav a.navbar-brand img { position: relative; top: 8px; left: 5px; width: auto; height: 100px; }
+
+header nav ul { margin: 25px 0px 0px 0px; border-top: 1px solid gray; }
+header nav ul li { font-family: 'Raleway', sans-serif; text-align: right; }
+header nav ul li.nav-item { padding-right: 0px; padding-bottom: 15px; }
+header nav ul li.nav-item:first-child { padding-top: 20px; }
+header nav ul li a {}
+header nav ul li a.nav-link { padding: 0px; font-weight: 700; font-size: 1.15em; letter-spacing: 0.65px; text-transform: uppercase; color: black !important; }
+header nav ul li a.nav-link:hover { color: gray !important; }
+header nav ul li a span { display: inline-block; padding: 0px 1px; font-size: 0.8em; }
+
+header nav button { text-transform: uppercase; }
+header nav button.navbar-toggler { position: relative; top: 10px; right: -15px; padding: 0px; border: none; }
+header nav button.navbar-toggler em { display: inline-block; padding: 0px 5px 0px 0px; font-size: 0.85em; font-style: normal; color: black; }
+
+
+section { background: white; }
+section.content {}
+section.content div.section-inner { max-width: 1400px; margin: 0px auto; }
+section div.home-content {}
+section.content div.section-inner,
+section div.home-content { padding: 30px 15px; }
+
+section div.home-image { position: relative; }
+section div.home-image-line {
+  position: absolute;
+  padding: 15px;
+  color: black;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.8);
+}
+section div.home-image-line small { display: block; }
+section div.home-image-line small:first-child { font-size: 0.75em; font-weight: 600; }
+section div.home-image-line small:last-child { font-size: 0.85em; line-height: 1.3em; }
+section div.home-image-line.home-image-line-bottom-right { bottom: 20px; right: 0px; }
+section div.home-image-line.home-image-line-bottom-left { bottom: 25px; left: 0px; }
+section div.home-image-line.home-image-line-bottom-full-width { width: 100%; bottom: 0px; }
+
+
+section.content ol,
+section.content ul { padding: 0px 0px 0px 30px; }
+section.content ol li,
+section.content ul li { padding: 0px 45px 2px 0px; font-size: 0.8em; }
+section.content ol li:last-child,
+section.content ul li:last-child { padding-bottom: 5px; }
+
+section div.home-registrations {}
+section div.home-registrations h1 { margin-bottom: 5px; font-size: 1.3em; }
+section div.home-registrations h2 { margin: 0px; font-size: 0.9em; text-align: center; font-weight: normal; }
+section div.home-registrations small { display: block; text-align: center; font-size: 0.65em; line-height: 1.3em; }
+
+
+footer { margin: 0px auto 15px auto; color: white; }
+footer div.footer-inner { width: 100%; /* max-width: 1200px; */ margin: 0px auto; padding: 30px 15px 45px 15px; }
+footer ul { list-style: none; }
+footer ul li { display: inline-block; padding-left: 15px; }
+footer ul li:first-child { padding-left: 0px; }
+footer a {
+  display: inline-block;
+  width: 100%;
+  padding: 0px 0px 2px 0px;
+  color: rgba(255, 255, 255, 1.0);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 0.85em;
+  letter-spacing: 1.25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+footer a:hover { color: rgba(255, 255, 255, 0.8); }
+footer small { font-size: 0.7em; }
+footer small a { text-transform: none; font-size: 1.0em; }
+footer div.footer-valediction div:first-child { padding: 5px 0px; font-size: 1.5em; text-transform: uppercase; }
+footer div.footer-valediction div:last-child { padding: 5px 0px; line-height: 1.4em; }
+
+footer div.footer-social-media { margin: 0px auto; font-size: 1.1em; }
+footer div.footer-links-final small { font-size: 0.85em; }
+footer div.footer-links-final a { text-transform: none; }
+footer div.footer-links-final a:hover {}
+footer div.content-line { background-color: white; }
+
+
+@media (min-width:  576px) {
+}
+
+@media (min-width:  768px) {
+  footer a { text-align: left; }
+  footer div.footer-social-media { font-size: 1.5em; }
+  section div.home-image-line small:first-child { font-size: 0.9em; }
+  section div.home-image-line small:last-child { font-size: 1.2em; line-height: 1.5em; }
+}
+
+@media (min-width:  992px) {
+	header .navbar ul.navbar-nav { border: none; }
+	header .navbar ul.navbar-nav li.nav-item { padding: 40px 0px 0px 15px; }
+  header .navbar ul.navbar-nav li.nav-button button { position: relative; top: -8px; }
+  section div.home-registrations h1 { font-size: 1.8em; }
+  section div.home-registrations h2 { font-size: 1.3em; }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {  /** XXL **/
+}
+
+
+/*
+iframe { width: 100%; height: auto; margin: 0px auto; }
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+*/

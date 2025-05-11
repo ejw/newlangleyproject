@@ -1,0 +1,110 @@
+
+  /* TITLES AND NAVIGATION */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+  /* PULL QUOTES */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap');
+  /* ITALIC: SUBLINES AND DATES; REMAINDER: TEXT */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* COLOURS:
+    RED: R191 G39 B39 -- BF2727
+    HEADLINE GREY: R88 G89 B91 -- 58595B
+    HEADLINE GREEB: R24 G71 B85 -- 184755  */
+
+body { font-size: 15px;	font-family: 'Raleway', serif; font-weight: 300; line-height: 20px;	background-color: white; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  line-height: 1.25em;
+  text-align: left;
+  letter-spacing: 1px;
+}
+h1 { font-size: 1.5em; text-align: center; }
+h2 { font-size: 1.5em; } /* H1 LEFT JUSTIFIED */
+h2 span { display: inline-block; padding-left: 5px; font-size: 0.75em; font-weight: normal; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 1.15em; }
+h5 { font-size: 1.15em; text-align: center; } /* H4 CENTERTED */
+
+a {}
+a:hover { text-decoration: none; }
+p { padding-bottom: 15px; }
+
+input,
+select,
+textarea { border-color: #5988bf !important; }
+
+div.content-line { width: 100%; height: 1px; border-bottom: 1px solid #BF2727; }
+
+section, footer, div.header-inner { max-width: 1230px; }
+header {
+  position: fixed;
+  z-index: 110;
+  top: 0%;
+  width: 100%;
+  height: 60px;
+  background-color: #58595B;
+}
+header img { width: auto; max-height: 30px; margin: 15px 0px 0px 0px; }
+header img.img-lt-reveal { display: none; }
+
+header ul { list-style: none; }
+header ul li { display: inline-block; padding: 15px 0px 0px 15px; color: white; text-align: right; line-height: 1.2em; }
+header ul li.active { font-weight: 500; }
+header ul li a { color: white; }
+header ul li a:hover { color: rgba(255, 255, 255, 0.75); }
+header ul li a button {
+  color: white !important;
+	font-family: 'Raleway', serif;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px;
+  background-color: inherit !important;
+  border-color: white !important;
+}
+header ul li a button:hover { background-color: #BF2727 !important; }
+header div.header-inner { height: 60px; width: 100%; margin: 0px auto; padding: 0px 15px; }
+
+ul.nav {}
+ul.nav a.nav-link { padding: 0px; color: black; font-family: 'Red Hat Display', serif; font-weight: 700; letter-spacing: 1.0px; }
+ul.nav a.nav-link:hover { color: #BF2727; }
+ul.nav li.nav-item { padding: 10px 8px; }
+ul.nav li.nav-item:first-child { padding-left: 0px; }
+ul.nav li.nav-item:last-child { padding-right: 0px; }
+ul.nav li.nav-item.divider { padding-left: 2px; padding-right: 2px; }
+ul.nav li.nav-item.active a.nav-link { color: #BF2727; }
+ul.nav li.nav-item.active a.nav-link:hover { color: rgba(0, 0, 0, 0.75); }
+
+
+section, footer {}
+section.nav-expanded { width: 100%; margin: 0px auto; padding: 75px 15px 25px 15px; }
+
+section.content { z-index: 100; width: auto; padding: 0px 15px 30px 15px; margin: 0px auto; }
+section.content.content-session { position: relative; top: 150px; padding-bottom: 100px; }
+section span.search-highlight { color: #e34b26; }
+
+footer { margin: 0px auto; padding: 0px 15px 5px 15px; }
+footer small { display: inline-block; width: 100%; text-align: center; }
+footer ul.nav li.nav-item { padding-top: 0px; font-size: 0.85em; }
+
+footer ol.breadcrumb { height: 25px; margin: 0px; padding: 7px 0px 2px 0px; background-color: inherit; }
+footer ol.breadcrumb li { text-transform: uppercase; font-size: 0.75em; line-height: 1.35em; }
+footer ol.breadcrumb li.active { font-weight: bold; }
+footer ol.breadcrumb li a { color: black; }
+footer ol.breadcrumb li a:hover { color: rgba(0, 0, 0, 0.75); }
+
+/** PUBLIC CONTENT ONLY **/
+
+section .content-public {}
+
+
+/** BREAKPOINTS **/
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
